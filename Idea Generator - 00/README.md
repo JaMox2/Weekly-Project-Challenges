@@ -3,7 +3,7 @@ I wanted to do weekly projects that would allow me to build my programming logic
 
 <!-- **Link to project:** http://recruiters-love-seeing-live-demos.com/ -->
 
-![alt tag](https://github.com/JaMox2/Weekly-Project-Challenges/blob/main/Idea%20Generator/assets/img/Weekly%20Idea%20Generator%2000%20-%20http.png)
+![alt tag](https://github.com/JaMox2/Weekly-Project-Challenges/blob/main/Idea%20Generator%20-%2000/assets/img/Weekly%20Idea%20Generator%2000%20-%20http.png)
 
 ## How It's Made:
 
@@ -17,8 +17,8 @@ There is a lot of other features I can add for this to make it even better such 
 
 ## Lessons Learned:
 
-With this simple project I learned how to change an array to a JSON string which will allow it to be stored in a single localStorage value. Along with that I learned how to be able to change it back to a normal array andd access it like a noraml array and not a JSON string
+With this simple project I learned how to change an array to a JSON string which will allow it to be stored in a single localStorage value. Along with that I learned how to be able to change it back to a normal array and access it like a noraml array and not a JSON string.
 
 ## Socials
                   
-                  <p align="left"> <a href="https://www.facebook.com/jeffrey.vill.9" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a> <a href="https://www.github.com/JaMox2" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/reactJaMo" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a></p>
+<p align="left"> <a href="https://www.facebook.com/jeffrey.vill.9" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a> <a href="https://www.github.com/JaMox2" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/reactJaMo" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a></p>
