@@ -1,0 +1,162 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Circular Std', sans-serif;
+}
+
+
+
+
+.page-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+.main-page{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #0066FF; */
+    width: 40vw;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 20px -7px rgba(77,77,77,1);
+    -moz-box-shadow: 0px 0px 20px -7px rgba(77,77,77,1);
+    box-shadow: 0px 0px 20px -7px rgba(77,77,77,1);
+
+}
+.main-page h1{
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 4vw;
+    color: white;
+    background-color: #0066FF;
+}
+.main-page div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 250px;
+}
+.main-page div .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    width: 40%;
+    border-bottom-left-radius: 25px;
+}
+.main-page div .left svg{
+    width: 1vw;
+}
+.main-page div .left a{
+    color: white;
+    background-color: #0066FF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1vh 1vw;
+}
+.main-page div .right{
+    width: 60%;
+    height: 200px;
+    border-bottom-right-radius: 25px;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+
+
+}
+
+.main-page div .right div span{
+    font-size: 2rem;
+}
+.main-page div .right img{
+    width: 25px;
+}
+.option{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.ctrl{
+    position: fixed;
+    width: 350px;
+    background-color: #0066FF;
+    height: 100vh;
+    color: white;
+    padding: 1.5rem 1.5rem;
+}
+.ctrl h1{
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 2.5rem;
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 1.5rem 0rem 5rem 0;
+}
+.inputs input{
+    width: 85%;
+    min-height: 40px;
+    border: 1px solid white;
+    border-right: none;
+}
+.inputs a{
+    width: 15%;
+    text-align: center;
+    min-height: 40px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    border: 1px solid white;
+    border-left: none;
+    background-color: #0066FF;
+    color: white;
+}
+.inputs a:focus{
+    outline: none;
+}
+.listOfItems{
+    padding: 2.5rem 0 0 0;
+    height: 50%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    list-style: decimal;
+}
+.listOfItems li{
+    text-transform: capitalize;
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    list-style: decimal;
+}
+.clear{
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 1rem;
+}
