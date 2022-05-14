@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/22dd73ce13.js" crossorigin="anonymous"></script>
+    <title>Form Validator</title>
+</head>
+<body>
+    
+    <div class="page-wrapper">
+
+        <div class="container">
+
+            <div class="left">
+                <h1><span>B</span>rand.</h1>
+                <img src="assets/img/Humaaans - 2 Characters.png" alt="img of hummaaan sktech">
+                <span>Start for free & Get offers Today!</span>
+            </div>
+
+            <div class="right">
+                <h1><span>Get</span> Setup</h1>
+                <p>Have an account?</p>
+                <a href="#">Log In</a>
+                
+                <span>Or</span>
+
+                <form action="#">
+                    <label for="name">Name</label>
+                    <div class="input-name input">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" class="name" id="name" required>
+                    </div>
+
+                    <label for="email">Email</label>
+                    <div class="input-email input">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" class="email" id="email" required>
+                    </div>
+
+                    <label for="tel">Number</label>
+                    <div class="input-tel input" id="number">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="tel" class="tel" id="tel" pattern="[7-9]{1}[0-9]{9}" required>
+                    </div>
+
+                    <label for="password">Password</label>
+                    <div class="input-password input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" class="password" id="password" required>
+                    </div>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="assets/js/JS.js"></script>
+</body>
+</html>
